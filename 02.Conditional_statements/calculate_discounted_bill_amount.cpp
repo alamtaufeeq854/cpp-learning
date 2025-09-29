@@ -11,7 +11,7 @@ int main()
 
     if (amount > 5000)
     {
-        discountedAmount = (amount) - (20 * amount) / 100.0; // 20% discount
+        discountedAmount = (amount) - (20 * amount) / 100.0; // 20% discount on the bill
         cout << "You have to pay: " << discountedAmount << endl;
     }
 
@@ -19,13 +19,13 @@ int main()
     {
         if (amount >= 2000 && amount < 5000)
         {
-            discountedAmount = (amount) - (10 * amount) / 100.0; // 10% discount
+            discountedAmount = (amount) - (10 * amount) / 100.0; // 10% discount on the bill
             cout << "You have to pay: " << discountedAmount << endl;
         }
 
         else
         {
-            discountedAmount = (amount) - (5 * amount) / 100.0; // 5% discount
+            discountedAmount = (amount) - (5 * amount) / 100.0; // 5% discount on the bill
             cout << "You have to pay: " << discountedAmount << endl;
         }
     }
