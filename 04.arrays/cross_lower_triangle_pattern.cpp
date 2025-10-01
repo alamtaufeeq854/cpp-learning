@@ -1,4 +1,4 @@
-// To draw of a pattern of Cross upper triangle
+// To draw of a pattern of Cross lower triangle
 #include <iostream>
 using namespace std;
 int main()
