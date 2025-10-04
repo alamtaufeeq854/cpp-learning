@@ -1,6 +1,6 @@
-// String to integers & Float
+// String tokeniser
 #include <iostream>
-#include <string.h> // To call strtol & strtof function
+#include <string.h>
 using namespace std;
 int main()
 {
