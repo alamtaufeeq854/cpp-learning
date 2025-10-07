@@ -14,7 +14,7 @@ int main()
 
     cout << func(x) << endl; // func(x) is indirectly becomes 'x'
 
-    func(x) = 39; // it means x=39
+    func(x) = 17; // it means x=39
 
     cout << func(x) << endl;
 
