@@ -29,7 +29,7 @@ int main()
     b.display();
 
     Derived d;
-    d.display(); // function is redefined, sonit will access derived class
+    d.display(); // function is redefined, so it will access derived class
 
     return 0;
 }
