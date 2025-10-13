@@ -2,21 +2,22 @@
 #include <iostream>
 using namespace std;
 
+// Base class definition
 class Base
 {
 public:
     int a;
 
-    void display()
+    void display() // Member function
     {
         cout << "Display of Base " << a << endl;
     }
 };
 
-class Derived : public Base
+class Derived : public Base // Derived class inheriting publicly from Base class
 {
 public:
-    void show()
+    void show() // Member function
     {
         cout << "Show of Derived " << a << endl;
     }
@@ -25,7 +26,7 @@ public:
 int main()
 {
 
-    Derived d;
+    Derived d; // Object of Derived class
     d.a = 5;
     d.show();
     d.display();
