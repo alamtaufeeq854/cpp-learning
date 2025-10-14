@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-division(int x, int y)
+int division(int x, int y)
 {
 
     if (y == 0)
