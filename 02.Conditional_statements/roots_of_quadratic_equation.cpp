@@ -36,7 +36,10 @@ int main()
 
         else
         {
-            cout << "Roots are unreal which is imaginary" << endl;
+            float realPart = -b / (2.0 * a);
+            float imagPart = sqrt(-d) / (2.0 * a);
+            cout << "Roots are imaginary and unequal which are: " << realPart << " + " << imagPart << "i"
+                 << " and " << realPart << " - " << imagPart << "i" << endl;
         }
     }
     return 0;
